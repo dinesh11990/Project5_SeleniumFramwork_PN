@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HRM Test Suite]">
+  <test name="Pending Leave Request Test Case">
+    <classes>
+      <class name="testCases.TestPendingLeaveRequest"/>
+    </classes>
+  </test> <!-- Pending Leave Request Test Case -->
+  <test name="Pending Leave Request Test Case(failed)">
+    <classes>
+      <class name="testCases.TestPendingLeaveRequest">
+        <methods>
+          <include name="verifyPendingLeaveRequests"/>
+          <include name="tearDown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testCases.TestPendingLeaveRequest -->
+    </classes>
+  </test> <!-- Pending Leave Request Test Case(failed) -->
+</suite> <!-- Failed suite [HRM Test Suite] -->

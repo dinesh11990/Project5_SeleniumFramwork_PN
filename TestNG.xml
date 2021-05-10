@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- Verbose will give the level of information -->
+<suite name="Test Suite" verbose="2">
+	<test name="Test Cases">
+		<classes>
+			<class name="testNG.DependencyManagment"></class>
+			<class name="testNG.SampleTestCase"></class>
+			<class name="testNG.SampleTestCase2"></class>
+
+		</classes>
+	</test>
+</suite>
